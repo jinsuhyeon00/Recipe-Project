@@ -1,0 +1,4 @@
+#nav #my_info{position: relative; top:5px; left: 0px; width: 280px; height: 200px; background-color: coral; border:solid 5px coral;
+    border-radius:15px; }
+
+#nav #link {position: relative; top:15px; left: 0px; width: 290px; height: 400px; background-color: coral;}

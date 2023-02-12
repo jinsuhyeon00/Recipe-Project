@@ -1,0 +1,13 @@
+#login_box { position:absolute; top:100px; width: 430px; height: 320px; border:solid 2px coral;
+    border-radius:15px; margin:100px 0 0 550px;
+    padding:10px 0 0 15px;}
+#login_title { margin: 20px 0 0 0; padding-bottom: 10px;}
+#login_title span {	font-size: 25px; font-weight: bold; color: coral;}
+#login_form { margin-top: 10px; }
+#login_form li { margin-top: 10px; }
+#login_form input {	width: 410px; height: 50px; }
+#login_form #login_btn { margin-top: 10px;}
+#login_form #find ul {padding-top: 10px;}
+#login_form #find li {display: inline;border-left: 2px solid coral; padding:0 8px;}  
+#login_form #find li:first-child{border-left:none;}
+

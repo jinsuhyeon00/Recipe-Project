@@ -1,0 +1,17 @@
+/* 메인 콘텐트 */
+
+
+/* 가입 양식 폼 */
+#join_box {	position:absolute; top:100px;	width: 600px; height: 210px; border:solid 2px coral; border-radius:15px; margin:100px 0 0 500px;
+    padding:5px 0 0 15px;}
+#join_box h2 {padding-top: 30px; font-size: 25px; font-weight: bold; color: coral; }
+#join_box .col1 { float: left;	width: 110px; margin-top: 20px; }
+#join_box .col2 { float: left;	width: 400px; }
+#join_box .col3 { float: left; }
+#join_box .form input { margin-top: 20px; width: 390px;	height: 25px; }
+#join_box .form { height: 38px; }
+
+#join_box input[name=email1] { width: 100px; }
+#join_box input[name=email2] { width: 272px; }
+#join_box .bottom_line { margin-top:5px;}
+#join_box .buttons { text-align: right;	margin: 30px 95px 0 0; }

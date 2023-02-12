@@ -1,0 +1,40 @@
+/* 게시판 글쓰기(coupon_form.php) */
+#coupon_box { position: absolute; top:200px; left:380px; width: 900px; margin: 0 auto; }
+#coupon_box #coupon_title { margin-top: 30px; padding: 10px; border-bottom: solid 2px coral; font-size: 20px; };
+#coupon_box li {list-style-type: none;}
+#coupon_form span { display: inline-block; }
+#coupon_form .col1 { width: 150px; }
+#coupon_form li {	padding: 12px; border-bottom: solid 1px #dddddd; 
+}
+#coupon_form input { width: 500px; height: 25px;}
+#coupon_form input[type="radio"] {width: 20px; height:15px;}
+#coupon_form #kinds .col2 { position: absolute; left:160px; }
+#coupon_form #kinds .col3 { position: absolute; left:220px; }
+#coupon_form #kinds .col4 { position: absolute; left:280px; }
+#coupon_form #kinds .col5 { position: absolute; left:340px; }
+
+#coupon_form textarea { width: 500px;	height: 150px; }
+#coupon_form #text_area {	position: relative;	height: 158px; }
+#coupon_form #text_area .col1 { position: absolute; top: 10px; }
+#coupon_form #text_area .col2 { position: absolute; left: 166px; }
+#coupon_box .buttons { text-align: right; margin: 20px 0 40px 0; }
+#coupon_box .buttons li { display: inline; }
+#coupon_box .buttons button { padding: 5px 10px; cursor: pointer; }
+/* 게시판 목록보기(coupon_list.php) */
+#coupon_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
+#coupon_list span { display: inline-block; text-align: center;}
+#coupon_list .col1 { width: 80px; }
+#coupon_list .col2 { width: 120px; text-align: left; }
+#coupon_list .col3 { width: 350px; }
+#coupon_list .col4 { width:50px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
+/* 게시판 내용보기(board_view.php) */
+#coupon_box { width: 800px; margin: 0 auto; }
+#coupon_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px coral; font-size: 20px; }
+#view_content li:nth-child(1) {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col2 { float: right;}
+#view_content li:nth-child(2) {	padding: 15px; border-bottom: solid 1px#aaaaaa; }
+#view_content li:nth-child(3) {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(4) button { padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }
+
